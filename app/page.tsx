@@ -37,7 +37,7 @@ export default function Home() {
         <div>
           <h1 className="text-4xl">Jubilio Mausse</h1>
           <h3 className="text-xl font-bold mt-2 bg-clip-text text-transparent bg-gradient-to-r 
-                        from-emerald-400 via-sky-300 to-gray-400">Data and GIS Analyst</h3>
+                        from-emerald-400 via-sky-300 to-gray-400 text-center">Data and GIS Analyst</h3>
           <p className="text-pretty tracking-tight mt-3 text-neutral-300">
             I am a Data and GIS Analyst with a passion for transforming data into actionable insights.
             I specialize in Geographic Information Systems (GIS) and data analysis, helping organizations
@@ -88,14 +88,14 @@ export default function Home() {
 
           <div className='flex gap-2 items-center'>
             <h3 className='text-xl bg-clip-text font-bold text-transparent bg-gradient-to-r from-emerald-400
-                            via-sky-400 to-blue-400'>Check out my socials</h3>
+                            via-sky-400 to-blue-400 text-center'>Check out my socials</h3>
             <HiArrowDown className='text-2xl text-sky-400' ></HiArrowDown>
           </div>
 
           <div className='flex flex-col gap-3'>
             <Button className='bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20
                                 hover:text-white transition-colors duration-200'>
-              <BiLogoGithub/> GitHub
+              <BiLogoGithub/> GitHub 
               <Link href="https://github.com/Jubilio/"></Link>
             </Button>
 
