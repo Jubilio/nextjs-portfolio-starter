@@ -57,9 +57,9 @@ const page = () => {
                 <div className='flex gap-3'>
                   <Button variant="outline" className='flex-1 text-white bg-black backdrop-blur-sm border-neutral-800/70
                                   transition-colors duration-200 ease-linear' asChild><a href="https://github.com/Jubilio/portifolio-nextjs">
-                                    <BiLogoGithub className='h-4 w-4 mr-2' />
-                                    View Code
-                                    </a></Button>
+                      <BiLogoGithub className='h-4 w-4 mr-2' />
+                      View Code
+                    </a></Button>
                   <Button variant="ghost" className='flex-1 text-gray-300 backdrop-blur-sm border-neutral-800/70
                                   transition-colors duration-200 ease-linear' asChild>
                     <a href='https://github.com/Jubilio/portifolio-nextjs'>

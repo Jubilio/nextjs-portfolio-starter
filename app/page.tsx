@@ -45,16 +45,16 @@ export default function Home() {
             spatial analysis, and creating interactive maps to communicate complex information effectively.{" "}
             <Link href="/contact" className="bg-clip-text text-transparent bg-gradient-to-r 
                         from-emerald-400 via-sky-300 to-blue-500 font-bold opacity-90 hover:opacity-100 transition-opacity">
-                          Contact Me{" "}
+              Contact Me{" "}
             </Link>{" "}
             for freelance opportunities or to discuss how I can help your organization leverage the power of data.
           </p>
         </div>
 
         <nav className='space-y-4'>
-          
+
           <h3 className='text-xl font-bold text-emerald-400'>Menu</h3>
-          
+
           <div className='flex flex-col gap-3'>
             <Link href="/about" className='w-1/2 border bg-black/30 border-gray-700/40 flex group items-center justify-between
                                           p-3 cursor-pointer transition-colors duration-200 ease-linear hover:bg-zinc-800/40 rounded-lg'>
@@ -94,19 +94,29 @@ export default function Home() {
 
           <div className='flex flex-col gap-3'>
             <Button className='bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20
-                                hover:text-white transition-colors duration-200'>
-              <BiLogoGithub/> GitHub 
-              <Link href="https://github.com/Jubilio/"></Link>
+                                hover:text-white transition-colors duration-200' asChild>
+              <a href="https://github.com/Jubilio">
+                <BiLogoGithub className='h-4 w-4 mr-2' />
+                GitHub
+              </a>
             </Button>
 
             <Button className='bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20
-                                hover:text-white transition-colors duration-200'>
-              <BiLogoLinkedin/> LinkedIn
+                                hover:text-white transition-colors duration-200' asChild>
+
+              <a href="https://www.linkedin.com/in/jubilio-mausse/">
+                <BiLogoLinkedin className='h-4 w-4 mr-2' />
+                LinkedIn
+              </a>
             </Button>
 
             <Button className='bg-black/30 w-full p-6 text-gray-300 border border-gray-700/40 hover:bg-slate-300/20
-                                hover:text-white transition-colors duration-200'>
-              <BiLogoYoutube/> YouTube
+                                hover:text-white transition-colors duration-200' asChild>
+
+              <a href="https://www.youtube.com/@deepgeoprogramming">
+                <BiLogoYoutube className='h-4 w-4 mr-2' />
+                YouTube
+              </a>
             </Button>
           </div>
         </nav>
