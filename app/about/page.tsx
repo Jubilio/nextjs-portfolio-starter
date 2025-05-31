@@ -31,7 +31,7 @@ const page = () => {
                             I continually seek to leverage geospatial technologies and analytical methodologies to support
                             effective and informed humanitarian decisions.
                         </p>
-                        
+
                         <p className="text-gray-300">
                             In my free time, I like to explore new frameworks, contribute to open-source projects, and share my knowledge with the community.
                         </p>
@@ -41,7 +41,7 @@ const page = () => {
                         <h2 className="text-4xl bg-clip-text font-bold text-transparent bg-gradient-to-r
                                 from-emerald-400 to-blue-500 text-center">Education</h2>
                         <div className="space-y-2">
-                            <p className="font-medium">Bachelor's Degree in Geographic Information Sciences</p>
+                            <p className="font-medium">Bachelor&apos;s Degree in Geographic Information Sciences</p>
                             <p className="text-neutral-500">Eduardo Mondlane University, 2019-2023</p>
                         </div>
                     </div>
